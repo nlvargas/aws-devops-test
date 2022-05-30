@@ -11,7 +11,7 @@ jobs:
       - checkout
       - python/install-packages:
           pkg-manager: pip
-      - lint:
+      - run:
           name: run lint
           command: make lint
       - run:
